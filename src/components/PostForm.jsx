@@ -129,7 +129,7 @@ const PostForm = () => {
                     <p>{post.content}</p>
                     <img src={post.image} alt={post.title} />
                     <p>{post.tags.join(", ")}</p>
-                    <button className="deleteButton" onClick={() => deletePost(post.id)}>Canella</button>
+                    <button className="deleteButton" onClick={() => deletePost(post.id)}>Cancella</button>
 
                 </div>
                 ))     
